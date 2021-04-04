@@ -25,12 +25,6 @@ class Brain {
         'Telugu',
         'kanadam'),
     Question(
-        'The Bharat Ratna is the highest civilian award of the Republic of India. Who among the following is not the first recipients of the Bharat Ratna?',
-        'C. Rajagopalachari',
-        'Sarvepalli Radhakrishnan',
-        'Jawaharlal Nehru',
-        'C. V. Raman'),
-    Question(
         'Who was the first Deputy Prime Minister of India?',
         'Sardar Vallabhai Patel',
         'Sarvepalli Radhakrishnan',
@@ -48,6 +42,7 @@ class Brain {
         'Blue, yellow, pink, green and red',
         'Blue, yellow, orange, green and red',
         'pink, yellow, black, green and red')
+    //other questions you wanted to add
   ];
   List<Answer> _answer = [
     Answer('Ag'),
@@ -56,10 +51,10 @@ class Brain {
     Answer('Africa'),
     Answer('William Pitt '),
     Answer('Tamil'),
-    Answer('Jawaharlal Nehru'),
     Answer('Sardar Vallabhai Patel'),
     Answer('Brihadeswara temple '),
     Answer('Blue, yellow, black, green and red'),
+    //answers for respective questions
   ];
   String choice = '';
   String getqs() {
